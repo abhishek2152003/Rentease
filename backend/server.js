@@ -26,7 +26,7 @@ connectDB();
 
 const app = express();
 
-
+app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174'];
