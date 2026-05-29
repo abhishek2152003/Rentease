@@ -14,7 +14,7 @@ const updateAdmin = async () => {
             // Update existing admin
             adminUser.name = 'anuj patil';
             adminUser.email = 'anuj.admin@example.com';
-            adminUser.password = 'anujadmin123';
+            adminUser.password = '  ';
             adminUser.isVerified = true;
             await adminUser.save();
             console.log('Admin user updated successfully');
